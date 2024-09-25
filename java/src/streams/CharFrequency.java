@@ -1,4 +1,4 @@
-package iq;
+package streams;
 
 import java.util.Map;
 import java.util.function.Function;

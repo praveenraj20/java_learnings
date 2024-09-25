@@ -14,6 +14,7 @@ public class SecondLargest {
                 .skip(1)
                 .findFirst()
                 .orElseThrow(() -> new IllegalArgumentException("array must have 2 element"));
+
         System.out.println(res);
 
         int first = 0, second =0;

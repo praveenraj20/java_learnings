@@ -17,7 +17,7 @@ public class StudentStreamAPI {
     }
     @Override
     public String toString() {
-        return "Student{" +
+        return "interviewqs.Student{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", cgpa=" + cgpa +

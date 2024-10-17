@@ -25,5 +25,9 @@ public class MyString {
         System.out.println(s1 == s3);       // will check the reference of the obj
         System.out.println(s1.equals(s3));  // will check the content
 
+        System.out.println(s4.compareTo(s3));
+        System.out.println(s1.compareTo(s2));
+        System.out.println(s1.compareTo(s3));
+
     }
 }

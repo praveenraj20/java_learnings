@@ -1,4 +1,4 @@
-package basicPrograms;
+package array;
 
 import java.util.Arrays;
 import java.util.List;

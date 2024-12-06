@@ -1,4 +1,4 @@
-package basicPrograms;
+package array;
 
 public class ArrayAdd {
     public static void main(String[] args) {

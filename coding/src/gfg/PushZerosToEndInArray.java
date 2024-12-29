@@ -63,6 +63,6 @@ public class PushZerosToEndInArray {
             }
         }
     }
-    // t.c = O(2n) ~ O(n)
+    // t.c = O(n)
     // S.c  = O(1)
 }

@@ -1,4 +1,4 @@
-package gfg;
+package gfg.array;
 
 import java.util.ArrayList;
 import java.util.Arrays;

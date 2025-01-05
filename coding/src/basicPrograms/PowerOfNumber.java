@@ -1,4 +1,4 @@
-package gfg.array;
+package basicPrograms;
 
 public class PowerOfNumber {
     public static void main(String[] args) {

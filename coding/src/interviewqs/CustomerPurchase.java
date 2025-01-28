@@ -59,9 +59,14 @@ class Customer{
                     .map(Purchase::getCusId) // Extract customer IDs
                     .distinct() // Remove duplicates
                     .map(customerMap::get) // Lookup customer details from the map
-                    .collect(Collectors.toList());
+                    .toList();
 
             System.out.println("Customers who purchased after " + filterDate + ":");
             filteredCustomers.forEach(System.out::println);
+
+            LocalDate date = LocalDate.of(2023, 1, 15);
+            List<Purchase> list = purchases.stream().filter(p -> p.getPurchaseDate().isAfter(date)).toList();
+            list.forEach(System.out::println);
+            purchases.stream().sorted(Comparator.comparing(Purchase::getPurchaseDate));
         }
     }

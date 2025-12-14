@@ -1,5 +1,10 @@
 package neetcode.arrays;
 
+/**
+ * Input int[] nums = {1,2,3,4}
+ * Output int[] result = {1,2,3,4,1,2,3,4}
+ **/
+
 public class ArrayConcatenation {
     public static void main(String[] args) {
         int[] nums = {1, 2, 3};
@@ -21,3 +26,9 @@ public class ArrayConcatenation {
         return ans;
     }
 }
+
+/**
+ * Time complexity = O(n)
+ * Space Complexity  = O(n)
+ * For this problem, Best, Worst, and Average time and space complexities are ALL THE SAME.
+ **/

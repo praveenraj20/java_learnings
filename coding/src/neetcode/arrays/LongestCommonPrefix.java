@@ -7,7 +7,7 @@ package neetcode.arrays;
 public class LongestCommonPrefix {
     public static void main(String[] args) {
         String[] strs = {"dance", "dag", "danger", "damage"};
-        System.out.println("Longest Common Prefix: "+longestCommonPrefix(strs));
+        System.out.println("Longest Common Prefix: " + longestCommonPrefix(strs));
     }
 
     public static String longestCommonPrefix(String[] strs) {

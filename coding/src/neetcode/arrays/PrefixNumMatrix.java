@@ -49,4 +49,8 @@ public class PrefixNumMatrix {
                 - prefix[row2 + 1][col1]
                 + prefix[row1][col1];
     }
+    /**
+     *  Time Complexity O(1)
+     *  Space Complexity O(1)
+     * **/
 }
